@@ -27,7 +27,7 @@
 </head>
 
   <body id="app-layout">
-    <header>
+    <header class="navbar-header">
       <h1>Matériel à disposition</h1>
     </header>
     <form name="formulaireMateriel" action="GET">
