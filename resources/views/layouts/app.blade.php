@@ -32,6 +32,12 @@
     </header>
     <form action="GET">
       <fieldset>
+      
+      <div class="form-check">
+    <input type="checkbox" class="filled-in form-check-input" id="checkbox101" checked="checked">
+    <label class="form-check-label" for="checkbox101">Filled-in checkbox</label>
+</div>
+
       <div class="form-check">
         <input type="checkbox" class="custom-control-input" name="materiel" id="1" value="Presse"/>
         <label class="filled-in form-check-input" for="1">Presse oblique</label>
