@@ -30,7 +30,7 @@
     <header>
       <h1>Matériel à disposition</h1>
     </header>
-    <form name="formulaireMateriel" action="GET">
+    <form class="form-inline" action="GET">
     
       <div class="form-check">
         <input type="checkbox" class="custom-control-input" name="materiel" id="1" value="Presse"/>
