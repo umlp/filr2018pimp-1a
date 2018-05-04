@@ -64,8 +64,8 @@
         <label class="form-check-label" for="7">Banc abdominaux</label>
       </div>
         
-        <label for="poidsDispo">Poids disponible:</label>
-          <select name="poidsDispo" class="custom-select mr-sm-2" id="poidsDispo">
+        <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Poids disponible:</label>
+          <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
             <option value="5">5</option>
             <option value="10">10</option>
             <option value="15">15</option>
