@@ -31,22 +31,38 @@
       <h1>Matériel à disposition</h1>
     </header>
     <form name="formulaireMateriel" action="GET">
+    
       <div class="form-check">
         <input type="checkbox" class="form-check-input" name="materiel" id="1" value="Presse"/>
         <label class="form-check-label" for="1">Presse oblique</label>
+      </div>
         <input type="checkbox" class="form-check-input" name="materiel" id="2" value="Altère"/>
         <label class="form-check-label" for="2">Altère</label>
+ 
+      <div class="form-check">
         <input type="checkbox" class="form-check-input" name="materiel" id="3" value="BancMuscu"/>
         <label class="form-check-label" for="3">Banc de musculation</label>
+      </div>
+      
+      <div class="form-check">
         <input type="checkbox" class="form-check-input" name="materiel" id="4" value="BarreTraction"/>
         <label class="form-check-label" for="4">Barre de traction</label>
-        <input type="checkbox" class="form-check-input" name="materiel" id="5" value="TapisCourse"/>
+      </div>  
+      
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" name="materiel" id="5" value="TapisCourse"/>        
         <label class="form-check-label" for="5">Tapis de course</label>
-         <input type="checkbox" class="form-check-input" name="materiel" id="6" value="TapisSol"/>
+      </div>
+      
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" name="materiel" id="6" value="TapisSol"/>
         <label class="form-check-label" for="6">Tapis de sol</label>
+      </div>    
+      
+      <div class="form-check">
         <input type="checkbox" class="form-check-input" name="materiel" id="7" value="BancAbdos"/>
         <label class="form-check-label" for="7">Banc abdominaux</label>
-       </div>
+      </div>
         
         <label for="poidsDispo">Poids disponible: </label>
           <select name="poidsDispo" class="dropdown" id="poidsDispo">
