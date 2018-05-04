@@ -31,6 +31,22 @@
       <h1>Matériel à disposition</h1>
     </header>
     <form action="GET">
+    
+    <div class="btn-group mr-4" data-toggle="buttons">
+
+    <label class="btn btn-primary active form-check-label">
+        <input type="checkbox" class="form-check-input" checked autocomplete="off"> Checkbox 1 (pre-checked)
+    </label>
+
+    <label class="btn btn-primary form-check-label">
+        <input type="checkbox" class="form-check-input" autocomplete="off"> Checkbox 2
+    </label>
+
+    <label class="btn btn-primary form-check-label">
+        <input type="checkbox" class="form-check-input" autocomplete="off"> Checkbox 3
+    </label>
+
+</div>
       
        <div class="form-check">
         <input type="checkbox" class="custom-control-input" name="materiel" id="1" value="Presse"/>
