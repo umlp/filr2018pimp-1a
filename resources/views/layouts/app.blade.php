@@ -32,19 +32,26 @@
     </header>
     <form name="formulaireMateriel" action="GET">
       <fieldset>
-        <input type="checkbox" name="materiel" id="1" value="Presse"/><label for="1">Presse oblique</label>
+        <input type="checkbox" class="form-check-input" name="materiel" id="1" value="Presse"/>
+        <label class="form-check-label" for="1">Presse oblique</label>
         </br>
-        <input type="checkbox" name="materiel" id="2" value="Altère"/><label for="2">Altère</label>
+        <input type="checkbox" class="form-check-input" name="materiel" id="2" value="Altère"/>
+        <label class="form-check-label" for="2">Altère</label>
         </br>
-        <input type="checkbox" name="materiel" id="3" value="BancMuscu"/><label for="3">Banc de musculation</label>
+        <input type="checkbox" class="form-check-input" name="materiel" id="3" value="BancMuscu"/>
+        <label class="form-check-label" for="3">Banc de musculation</label>
         </br>
-        <input type="checkbox" name="materiel" id="4" value="BarreTraction"/><label for="4">Barre de traction</label>
+        <input type="checkbox" class="form-check-input" name="materiel" id="4" value="BarreTraction"/>
+        <label class="form-check-label" for="4">Barre de traction</label>
         </br>
-        <input type="checkbox" name="materiel" id="5" value="TapisCourse"/><label for="5">Tapis de course</label>
+        <input type="checkbox" class="form-check-input" name="materiel" id="5" value="TapisCourse"/>
+        <label class="form-check-label" for="5">Tapis de course</label>
         </br>
-        <input type="checkbox" name="materiel" id="6" value="TapisSol"/><label for="6">Tapis de sol</label>
+        <input type="checkbox" class="form-check-input" name="materiel" id="6" value="TapisSol"/>
+        <label class="form-check-label" for="6">Tapis de sol</label>
         </br>
-        <input type="checkbox" name="materiel" id="7" value="BancAbdos"/><label for="7">Banc abdominaux</label>
+        <input type="checkbox" class="form-check-input" name="materiel" id="7" value="BancAbdos"/>
+        <label class="form-check-label" for="7">Banc abdominaux</label>
         </br>
         
         <label for="poidsDispo">Poids disponible: </label>
