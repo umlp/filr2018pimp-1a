@@ -49,8 +49,8 @@
             <option value="25">25</option>
             <option value="30">30</option>
           </select></br>
-        <input type="submit" class="bouton" value="Valider"/>
-        <input type="reset" class="bouton" value="Retour"/>
+        <input type="submit" class="navbar-toggle" value="Valider"/>
+        <input type="reset" class="navbar-toggle" value="Retour"/>
       </fieldset>
     </form>
   </body>
