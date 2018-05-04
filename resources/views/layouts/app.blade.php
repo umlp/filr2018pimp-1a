@@ -32,7 +32,7 @@
     </header>
     <form name="formulaireMateriel" action="GET">
       <fieldset>
-        <input type="checkbox" class="option-input checkbox" name="materiel" id="1" value="Presse"/>
+        <input type="checkbox" class="option-input checkbox" name="1" id="1" value="Presse"/>
         <label for="1">Presse oblique</label>
         
         <input type="checkbox" class="option-input checkbox" name="materiel" value="Altère"/>Altère</br>
