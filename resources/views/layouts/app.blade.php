@@ -51,7 +51,7 @@
         <label for="6">Tapis de sol</label>
         
         <input type="checkbox" class="option-input checkbox" name="7" id="7" value="BancAbdos"/>
-        <label for="6">Banc abdominaux</label>
+        <label for="7">Banc abdominaux</label>
 
         <label for="poidsDispo">Poids disponible: </label>
           <select name="poidsDispo" id="poidsDispo">
