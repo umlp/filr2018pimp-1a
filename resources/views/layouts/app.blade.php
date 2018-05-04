@@ -30,19 +30,13 @@
     <header>
       <h1>Matériel à disposition</h1>
     </header>
-    <form class="class="was-validated" action="GET">
+    <form action="GET">
     
       <div class="form-check">
         <input type="checkbox" class="custom-control-input" name="materiel" id="1" value="Presse"/>
         <label class="form-check-label" for="1">Presse oblique</label>
       </div>
       
-        <div class="custom-control custom-checkbox mb-3">
-    <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
-    <label class="custom-control-label" for="customControlValidation1">Check this custom checkbox</label>
-    <div class="invalid-feedback">Example invalid feedback text</div>
-  </div>
-  
       <div class="form-check">
         <input type="checkbox" class="custom-control-input" name="materiel" id="2" value="Altère"/>
         <label class="form-check-label" for="2">Altère</label>
