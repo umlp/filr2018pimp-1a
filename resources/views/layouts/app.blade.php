@@ -32,13 +32,13 @@
     </header>
     <form name="formulaireMateriel" action="GET">
       <fieldset>
-        <input type="checkbox" class="option-input checkbox" value="Presse">Presse oblique<\input>
-        <input type="checkbox" class="option-input checkbox" name="materiel" value="Altère">Altère<\input>
-        <input type="checkbox" class="option-input checkbox" name="materiel" value="BancMuscu">Banc de musculation<\input>
-        <input type="checkbox" class="option-input checkbox" name="materiel" value="BarreTraction">Barre de traction<\input>
-        <input type="checkbox" class="option-input checkbox" name="materiel" value="TapisCourse">Tapis de course<\input>
-        <input type="checkbox" class="option-input checkbox" name="materiel" value="TapisSol">Tapis de sol<\input>
-        <input type="checkbox" class="option-input checkbox" name="materiel" value="BancAbdos">Banc abdominaux<\input></br>
+        <input type="checkbox" class="option-input checkbox" value="Presse">Presse oblique/>
+        <input type="checkbox" class="option-input checkbox" name="materiel" value="Altère">Altère/>
+        <input type="checkbox" class="option-input checkbox" name="materiel" value="BancMuscu">Banc de musculation/>
+        <input type="checkbox" class="option-input checkbox" name="materiel" value="BarreTraction">Barre de traction/>
+        <input type="checkbox" class="option-input checkbox" name="materiel" value="TapisCourse">Tapis de course/>
+        <input type="checkbox" class="option-input checkbox" name="materiel" value="TapisSol">Tapis de sol/>
+        <input type="checkbox" class="option-input checkbox" name="materiel" value="BancAbdos">Banc abdominaux/></br>
         <label for="poidsDispo">Poids disponible: </label>
           <select name="poidsDispo" id="poidsDispo">
             <option value="5">5</option>
