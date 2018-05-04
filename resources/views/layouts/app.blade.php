@@ -43,7 +43,7 @@
     </label>
 
     <label class="btn btn-primary form-check-label">
-        <input type="checkbox" class="form-check-input" autocomplete="off"> Checkbox 3
+        <input type="checkbox" class="form-check-input" autocomplete="on"> Checkbox 3
     </label>
 
 </div>
