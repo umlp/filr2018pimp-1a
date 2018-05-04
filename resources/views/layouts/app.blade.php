@@ -35,12 +35,24 @@
         <input type="checkbox" class="option-input checkbox" name="1" id="1" value="Presse"/>
         <label for="1">Presse oblique</label>
         
-        <input type="checkbox" class="option-input checkbox" name="materiel" value="Altère"/>Altère</br>
-        <input type="checkbox" class="option-input checkbox" name="materiel" value="BancMuscu"/>Banc de musculation</br>
-        <input type="checkbox" class="option-input checkbox" name="materiel" value="BarreTraction"/>Barre de traction</br>
-        <input type="checkbox" class="option-input checkbox" name="materiel" value="TapisCourse"/>Tapis de course</br>
-        <input type="checkbox" class="option-input checkbox" name="materiel" value="TapisSol"/>Tapis de sol</br>
-        <input type="checkbox" class="option-input checkbox" name="materiel" value="BancAbdos"/>Banc abdominaux</br></br>
+        <input type="checkbox" class="option-input checkbox" name="2" id="2" value="Altère"/>
+        <label for="2">Altère</label>
+        
+        <input type="checkbox" class="option-input checkbox" name="3" id="3" value="BancMuscu"/>
+        <label for="3">Banc de musculation</label>
+        
+        <input type="checkbox" class="option-input checkbox" name="4" id="4" value="BarreTraction"/>
+        <label for="4">Barre de traction</label>
+  
+        <input type="checkbox" class="option-input checkbox" name="5" id="5" value="TapisCourse"/>
+        <label for="5">Tapis de course</label>
+        
+        <input type="checkbox" class="option-input checkbox" name="6" id="6" value="TapisSol"/>
+        <label for="6">Tapis de sol</label>
+        
+        <input type="checkbox" class="option-input checkbox" name="7" id="7" value="BancAbdos"/>
+        <label for="6">Banc abdominaux</label>
+
         <label for="poidsDispo">Poids disponible: </label>
           <select name="poidsDispo" id="poidsDispo">
             <option value="5">5</option>
