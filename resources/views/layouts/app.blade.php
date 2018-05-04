@@ -31,7 +31,6 @@
       <h1>Matériel à disposition</h1>
     </header>
     <form name="formulaireMateriel" action="GET">
-      <fieldset>
       <div class="form-check">
         <input type="checkbox" class="form-check-input" name="materiel" id="1" value="Presse"/>
         <label class="form-check-label" for="1">Presse oblique</label>
@@ -65,10 +64,9 @@
             <option value="25">25</option>
             <option value="30">30</option>
           </select></br>
-        <input type="submit" class="bouton" value="Valider"/>
+        <input type="submit" class="btn btn-primary" value="Valider"/>
         <input type="reset" class="bouton" value="Retour"/>
-      </fieldset>
-    </form>
+     </form>
     
   </body>
 </html>
