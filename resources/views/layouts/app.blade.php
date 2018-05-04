@@ -42,16 +42,16 @@
   
         <input type="checkbox" name="materiel" id="5" value="TapisCourse"/><label for="5">Tapis de course</label>
         
-        <input type="checkbox" class="option-input checkbox" name="materiel" id="6" value="TapisSol"/>
+        <input type="checkbox" name="materiel" id="6" value="TapisSol"/>
         <label for="6">Tapis de sol</label>
         
-        <input type="checkbox" class="option-input checkbox" name="materiel" id="7" value="BancAbdos"/>
+        <input type="checkbox" name="materiel" id="7" value="BancAbdos"/>
         <label for="7">Banc abdominaux</label>
         </br>
         <input type="radio" id="enseignant" name="statut" value="enseignant"/><label class="labelradio" for="enseignant">Enseignant</label>
         
         <label for="poidsDispo">Poids disponible: </label>
-          <select name="poidsDispo" id="poidsDispo">
+          <select name="poidsDispo" class="dropdown" id="poidsDispo">
             <option value="5">5</option>
             <option value="10">10</option>
             <option value="15">15</option>
