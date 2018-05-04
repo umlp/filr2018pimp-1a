@@ -17,7 +17,7 @@
 
 </head>
 
-  <body>
+  <body id="app-layout">
     <header>
       <h1>Matériel à disposition</h1>
     </header>
