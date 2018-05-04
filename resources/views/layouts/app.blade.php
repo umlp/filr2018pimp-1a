@@ -25,6 +25,4 @@
         }
     </style>
 </head>
-<body id="app-layout">
-</body>
 </html>
