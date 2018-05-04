@@ -34,12 +34,12 @@
     
       <div class="form-check">
         <input type="checkbox" class="custom-control-input" name="materiel" id="1" value="Presse"/>
-        <label class="form-check-label" for="1">Presse oblique</label>
+        <label class="filled-in form-check-input" for="1">Presse oblique</label>
       </div>
       
       <div class="form-check">
         <input type="checkbox" class="custom-control-input" name="materiel" id="2" value="Altère"/>
-        <label class="form-check-label" for="2">Altère</label>
+        <label class="filled-in form-check-input" for="2">Altère</label>
       </div>
  
       <div class="form-check">
