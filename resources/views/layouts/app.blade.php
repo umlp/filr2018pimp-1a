@@ -32,13 +32,13 @@
     </header>
     <form name="formulaireMateriel" action="GET">
       <fieldset>
-        <input type="checkbox" class="option-input checkbox" value="Presse">Presse oblique</br>
-        <input type="checkbox" class="option-input checkbox" name="materiel" value="Altère">Altère</br>
-        <input type="checkbox" class="option-input checkbox" name="materiel" value="BancMuscu">Banc de musculation</br>
-        <input type="checkbox" class="option-input checkbox" name="materiel" value="BarreTraction">Barre de traction</br>
-        <input type="checkbox" class="option-input checkbox" name="materiel" value="TapisCourse">Tapis de course</br>
-        <input type="checkbox" class="option-input checkbox" name="materiel" value="TapisSol">Tapis de sol</br>
-        <input type="checkbox" class="option-input checkbox" name="materiel" value="BancAbdos">Banc abdominaux</br></br>
+        <input type="checkbox" class="option-input checkbox" value="Presse">Presse oblique<\input>
+        <input type="checkbox" class="option-input checkbox" name="materiel" value="Altère">Altère<\input>
+        <input type="checkbox" class="option-input checkbox" name="materiel" value="BancMuscu">Banc de musculation<\input>
+        <input type="checkbox" class="option-input checkbox" name="materiel" value="BarreTraction">Barre de traction<\input>
+        <input type="checkbox" class="option-input checkbox" name="materiel" value="TapisCourse">Tapis de course<\input>
+        <input type="checkbox" class="option-input checkbox" name="materiel" value="TapisSol">Tapis de sol<\input>
+        <input type="checkbox" class="option-input checkbox" name="materiel" value="BancAbdos">Banc abdominaux<\input></br>
         <label for="poidsDispo">Poids disponible: </label>
           <select name="poidsDispo" id="poidsDispo">
             <option value="5">5</option>
@@ -48,8 +48,8 @@
             <option value="25">25</option>
             <option value="30">30</option>
           </select></br>
-        <input type="submit" class="glyphicon glyphicon-user" value="Valider"/>
-        <input type="reset" class="glyphicon glyphicon-user" value="Retour"/>
+        <input type="submit" class="bouton" value="Valider"/>
+        <input type="reset" class="bouton" value="Retour"/>
       </fieldset>
     </form>
     
