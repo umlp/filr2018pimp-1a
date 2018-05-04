@@ -33,14 +33,14 @@
     <form name="formulaireMateriel" action="GET">
     
       <div class="form-check">
-        <input type="checkbox" class="form-check-input" name="materiel" id="1" value="Presse"/>
+        <input type="checkbox" class="custom-control-input" name="materiel" id="1" value="Presse"/>
         <label class="form-check-label" for="1">Presse oblique</label>
       </div>
-        <input type="checkbox" class="form-check-input" name="materiel" id="2" value="Altère"/>
+        <input type="checkbox" class="custom-control-input" name="materiel" id="2" value="Altère"/>
         <label class="form-check-label" for="2">Altère</label>
  
       <div class="form-check">
-        <input type="checkbox" class="form-check-input" name="materiel" id="3" value="BancMuscu"/>
+        <input type="checkbox" class="custom-control-input" name="materiel" id="3" value="BancMuscu"/>
         <label class="form-check-label" for="3">Banc de musculation</label>
       </div>
       
