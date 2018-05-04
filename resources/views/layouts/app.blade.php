@@ -32,7 +32,7 @@
     </header>
     <form name="formulaireMateriel" action="GET">
       <fieldset>
-        <input type="checkbox" class="icon-bar" name="materiel" value="Presse">Presse oblique</br>
+        <input type="checkbox" class="option-input checkbox" value="Presse">Presse oblique</br>
         <input type="checkbox" class="option-input checkbox" name="materiel" value="Altère">Altère</br>
         <input type="checkbox" class="option-input checkbox" name="materiel" value="BancMuscu">Banc de musculation</br>
         <input type="checkbox" class="option-input checkbox" name="materiel" value="BarreTraction">Barre de traction</br>
@@ -52,5 +52,13 @@
         <input type="reset" class="bouton" value="Retour"/>
       </fieldset>
     </form>
+    
+    @yield('content')
+
+    <!-- JavaScripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
+    
   </body>
 </html>
