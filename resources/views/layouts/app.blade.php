@@ -52,7 +52,9 @@
         
         <input type="checkbox" class="option-input checkbox" name="7" id="7" value="BancAbdos"/>
         <label for="7">Banc abdominaux</label>
-
+        
+        <input type="radio" id="enseignant" name="statut" value="enseignant"/><label class="labelradio" for="enseignant">Enseignant</label>
+        
         <label for="poidsDispo">Poids disponible: </label>
           <select name="poidsDispo" id="poidsDispo">
             <option value="5">5</option>
