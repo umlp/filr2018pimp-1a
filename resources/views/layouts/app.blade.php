@@ -28,11 +28,11 @@
 
   <body id="app-layout">
     <header>
-      <h1 class="navbar-header">Matériel à disposition</h1>
+      <h1>Matériel à disposition</h1>
     </header>
     <form name="formulaireMateriel" action="GET">
       <fieldset>
-        <input type="checkbox" class="option-input checkbox" name="materiel" value="Presse">Presse oblique</br>
+        <input type="checkbox" class="icon-bar" name="materiel" value="Presse">Presse oblique</br>
         <input type="checkbox" class="option-input checkbox" name="materiel" value="Altère">Altère</br>
         <input type="checkbox" class="option-input checkbox" name="materiel" value="BancMuscu">Banc de musculation</br>
         <input type="checkbox" class="option-input checkbox" name="materiel" value="BarreTraction">Barre de traction</br>
