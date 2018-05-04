@@ -32,6 +32,7 @@
     </header>
     <form name="formulaireMateriel" action="GET">
       <fieldset>
+      <div class="form-check">
         <input type="checkbox" class="form-check-input" name="materiel" id="1" value="Presse"/>
         <label class="form-check-label" for="1">Presse oblique</label>
         </br>
@@ -53,6 +54,7 @@
         <input type="checkbox" class="form-check-input" name="materiel" id="7" value="BancAbdos"/>
         <label class="form-check-label" for="7">Banc abdominaux</label>
         </br>
+       </div>
         
         <label for="poidsDispo">Poids disponible: </label>
           <select name="poidsDispo" class="dropdown" id="poidsDispo">
