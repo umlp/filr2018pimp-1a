@@ -31,21 +31,15 @@
       <h1>Matériel à disposition</h1>
     </header>
     <form action="GET">
-      <fieldset>
       
-      <div class="form-check">
-    <input type="checkbox" class="filled-in form-check-input" id="checkbox101" checked="checked">
-    <label class="form-check-label" for="checkbox101">Filled-in checkbox</label>
-</div>
-
-      <div class="form-check">
+       <div class="form-check">
         <input type="checkbox" class="custom-control-input" name="materiel" id="1" value="Presse"/>
-        <label class="filled-in form-check-input" for="1">Presse oblique</label>
+        <label class="form-check-input" for="1">Presse oblique</label>
       </div>
       
       <div class="form-check">
         <input type="checkbox" class="custom-control-input" name="materiel" id="2" value="Altère"/>
-        <label class="filled-in form-check-input" for="2">Altère</label>
+        <label class="form-check-input" for="2">Altère</label>
       </div>
  
       <div class="form-check">
@@ -72,8 +66,9 @@
         <input type="checkbox" class="form-check-input" name="materiel" id="7" value="BancAbdos"/>
         <label class="form-check-label" for="7">Banc abdominaux</label>
       </div>
-      </fieldset>
-        
+       
+      </br>
+       
         <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Poids disponible:</label>
           <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
             <option value="5">5</option>
