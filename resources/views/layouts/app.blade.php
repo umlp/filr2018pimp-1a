@@ -34,25 +34,18 @@
       <div class="form-check">
         <input type="checkbox" class="form-check-input" name="materiel" id="1" value="Presse"/>
         <label class="form-check-label" for="1">Presse oblique</label>
-        </br>
         <input type="checkbox" class="form-check-input" name="materiel" id="2" value="Altère"/>
         <label class="form-check-label" for="2">Altère</label>
-        </br>
         <input type="checkbox" class="form-check-input" name="materiel" id="3" value="BancMuscu"/>
         <label class="form-check-label" for="3">Banc de musculation</label>
-        </br>
         <input type="checkbox" class="form-check-input" name="materiel" id="4" value="BarreTraction"/>
         <label class="form-check-label" for="4">Barre de traction</label>
-        </br>
         <input type="checkbox" class="form-check-input" name="materiel" id="5" value="TapisCourse"/>
         <label class="form-check-label" for="5">Tapis de course</label>
-        </br>
-        <input type="checkbox" class="form-check-input" name="materiel" id="6" value="TapisSol"/>
+         <input type="checkbox" class="form-check-input" name="materiel" id="6" value="TapisSol"/>
         <label class="form-check-label" for="6">Tapis de sol</label>
-        </br>
         <input type="checkbox" class="form-check-input" name="materiel" id="7" value="BancAbdos"/>
         <label class="form-check-label" for="7">Banc abdominaux</label>
-        </br>
        </div>
         
         <label for="poidsDispo">Poids disponible: </label>
@@ -65,7 +58,7 @@
             <option value="30">30</option>
           </select></br>
         <input type="submit" class="btn btn-primary" value="Valider"/>
-        <input type="reset" class="bouton" value="Retour"/>
+        <input type="reset" class="btn btn-primary" value="Retour"/>
      </form>
     
   </body>
