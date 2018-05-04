@@ -34,7 +34,7 @@
     <form name="formulaireMateriel" action="GET">
       <fieldset>
         <input type="checkbox" class="navbar-toggle" checkbox" name="materiel" value="Presse">Presse oblique</br>
-        <input type="checkbox" class="option-input checkbox" name="materiel" value="Altère">Altère</br>
+        <input type="checkbox" class="icon-bar" checkbox" name="materiel" value="Altère">Altère</br>
         <input type="checkbox" class="option-input checkbox" name="materiel" value="BancMuscu">Banc de musculation</br>
         <input type="checkbox" class="option-input checkbox" name="materiel" value="BarreTraction">Barre de traction</br>
         <input type="checkbox" class="option-input checkbox" name="materiel" value="TapisCourse">Tapis de course</br>
@@ -50,7 +50,7 @@
             <option value="30">30</option>
           </select></br>
         <input type="submit" class="navbar-toggle" value="Valider"/>
-        <input type="reset" class="navbar-toggle" value="Retour"/>
+        <input type="reset" class="icon-bar" value="Retour"/>
       </fieldset>
     </form>
   </body>
