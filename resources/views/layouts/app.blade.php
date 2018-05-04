@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,47 +25,32 @@
         }
     </style>
 </head>
-<body id="app-layout">
 
-
-<-- barre de menu -->
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Liste de tâches</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Page 1-1</a></li>
-            <li><a href="#">Page 1-2</a></li>
-            <li><a href="#">Page 1-3</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-    @yield('content')
-
-    <!-- JavaScripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
-</body>
+  <body id="app-layout">
+    <header>
+      <h1>Matériel à disposition</h1>
+    </header>
+    <form name="formulaireMateriel" action="GET">
+      <fieldset>
+        <input type="checkbox" class="option-input checkbox" name="materiel" value="Presse">Presse oblique</br>
+        <input type="checkbox" class="option-input checkbox" name="materiel" value="Altère">Altère</br>
+        <input type="checkbox" class="option-input checkbox" name="materiel" value="BancMuscu">Banc de musculation</br>
+        <input type="checkbox" class="option-input checkbox" name="materiel" value="BarreTraction">Barre de traction</br>
+        <input type="checkbox" class="option-input checkbox" name="materiel" value="TapisCourse">Tapis de course</br>
+        <input type="checkbox" class="option-input checkbox" name="materiel" value="TapisSol">Tapis de sol</br>
+        <input type="checkbox" class="option-input checkbox" name="materiel" value="BancAbdos">Banc abdominaux</br></br>
+        <label for="poidsDispo">Poids disponible: </label>
+          <select name="poidsDispo" id="poidsDispo">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+          </select></br>
+        <input type="submit" class="bouton" value="Valider"/>
+        <input type="reset" class="bouton" value="Retour"/>
+      </fieldset>
+    </form>
+  </body>
 </html>
