@@ -81,9 +81,9 @@
 
         </br>
 
-        <input type="button" src="https://fittyweb.herokuapp.com/ProgrammeDeMusculationPersonnalise" class="btn btn-primary" value="Valider"/>
+        <a href="https://fittyweb.herokuapp.com/ProgrammeDeMusculationPersonnalise"><input type="button" class="btn btn-primary" value="Valider"/></a>
         <input type="reset" class="btn btn-primary" value="Effacer"/>
-        <input type="reset" src="https://fittyweb.herokuapp.com/ChoixPartiesDuCorps" class="btn btn-primary" value="Retour"/>
+        <a href="https://fittyweb.herokuapp.com/ChoixPartiesDuCorps"><input type="reset" class="btn btn-primary" value="Retour"/></a>
      </form>
 
   </body>
