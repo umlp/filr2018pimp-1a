@@ -13,12 +13,20 @@
       <!--{{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}-->
 
       <style>
+          body {
+              font-family: 'Lato';
+          }
+
+          .fa-btn {
+              margin-right: 6px;
+          }
+
           #logo {
             float: left;
           }
 
           h1 {
-          padding-top: 30px;
+            padding-top: 30px;
             margin-left: 100px;
           }
       </style>
