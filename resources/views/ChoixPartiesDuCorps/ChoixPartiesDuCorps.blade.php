@@ -61,9 +61,9 @@
             </div>
           </fieldset>
         </form>
-
-        <input type="button" value="Sauvegarder les changements"/>
-        <input type="reset" value="Annuler les changements"/>
+        <br/>
+        <input type="button" class="btn btn-primary" value="Valider"/>
+        <input type="reset" class="btn btn-primary" value="Annuler les changements"/>
 
         <h1><p class="text-danger">-30% sur les produits MyProtein avec le code FittyWeb</p></h1>
       <footer>

@@ -85,7 +85,7 @@
         </div>
       </fieldset>
     </form>
-
+    <br/>
     <a href="https://fittyweb.herokuapp.com/"><input type="button" class="btn btn-primary" value="Retour"/></a>
     <input type="reset" class="btn btn-primary" value="Effacer"/>
     <input type="button" class="btn btn-primary" value="Valider"/>
