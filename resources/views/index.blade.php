@@ -88,7 +88,7 @@
       <a href="https://fittyweb.herokuapp.com/ChoixPartiesDuCorps"><input type="button" class="btn btn-primary" value="Retour"/></a>
       <input type="reset" class="btn btn-primary" value="Effacer"/>
       <a href="https://fittyweb.herokuapp.com/ProgrammeDeMusculationPersonnalise"><input type="button" class="btn btn-primary" value="Valider"/></a>
-     </form>    
+     </form>
      <h1><p class="text-danger">-30% sur les produits MyProtein avec le code FittyWeb</p></h1>
   </body>
   <footer>
