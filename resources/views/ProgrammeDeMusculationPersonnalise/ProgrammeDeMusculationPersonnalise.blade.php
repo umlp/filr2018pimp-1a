@@ -13,7 +13,7 @@
   </head>
   <body>
     <header>
-      <img class="rounded float-left" id="logo" src="logofittyweb.png" alt="ASI" width="70" height="70"/>
+      <img class="float-left" id="logo" src="logofittyweb.png" alt="ASI" width="70" height="70"/>
       <h1>FittyWeb</h1>
     </header>
     <h2>Programme de musculation personnalisé</h2>
