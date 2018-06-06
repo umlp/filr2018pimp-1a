@@ -31,44 +31,44 @@
       <h1>Matériel à disposition</h1>
     </header>
     <form action="GET">
-    
+
        <div class="form-check">
         <input type="checkbox" class="custom-control-input" name="materiel" id="1" value="Presse"/>
         <label class="form-check-input" for="1">Presse oblique</label>
       </div>
-      
+
       <div class="form-check">
         <input type="checkbox" class="custom-control-input" name="materiel" id="2" value="Altère"/>
         <label class="form-check-input" for="2">Altère</label>
       </div>
- 
+
       <div class="form-check">
         <input type="checkbox" class="custom-control-input" name="materiel" id="3" value="BancMuscu"/>
         <label class="form-check-label" for="3">Banc de musculation</label>
       </div>
-      
+
       <div class="form-check">
         <input type="checkbox" class="form-check-input" name="materiel" id="4" value="BarreTraction"/>
         <label class="form-check-label" for="4">Barre de traction</label>
-      </div>  
-      
+      </div>
+
       <div class="form-check">
-        <input type="checkbox" class="form-check-input" name="materiel" id="5" value="TapisCourse"/>        
+        <input type="checkbox" class="form-check-input" name="materiel" id="5" value="TapisCourse"/>
         <label class="form-check-label" for="5">Tapis de course</label>
       </div>
-      
+
       <div class="form-check">
         <input type="checkbox" class="form-check-input" name="materiel" id="6" value="TapisSol"/>
         <label class="form-check-label" for="6">Tapis de sol</label>
-      </div>    
-      
+      </div>
+
       <div class="form-check">
         <input type="checkbox" class="form-check-input" name="materiel" id="7" value="BancAbdos"/>
         <label class="form-check-label" for="7">Banc abdominaux</label>
       </div>
-       
-  
-       
+
+
+
         <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Poids disponible:</label>
           <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
             <option value="5">5</option>
@@ -78,12 +78,13 @@
             <option value="25">25</option>
             <option value="30">30</option>
           </select></br>
-          
+
         </br>
-        
-        <input type="submit" class="btn btn-primary" value="Valider"/>
-        <input type="reset" class="btn btn-primary" value="Retour"/>
+
+        <input type="button" src="https://fittyweb.herokuapp.com/ProgrammeDeMusculationPersonnalise" class="btn btn-primary" value="Valider"/>
+        <input type="reset" class="btn btn-primary" value="Effacer"/>
+        <input type="reset" src="https://fittyweb.herokuapp.com/ChoixPartiesDuCorps" class="btn btn-primary" value="Retour"/>
      </form>
-     
+
   </body>
 </html>
