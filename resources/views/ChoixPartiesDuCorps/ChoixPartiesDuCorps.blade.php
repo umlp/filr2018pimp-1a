@@ -14,7 +14,7 @@
   </head>
     <body>
       <header>
-        <img id="logo" src="logofittyweb.png" alt="ASI" width="70" height="70"/>
+        <img class="rounded float-left" id="logo" src="logofittyweb.png" alt="ASI" width="70" height="70"/>
         <h1>FittyWeb</h1>
       </header>
         <h2>Choix Partie du corps</h2>
