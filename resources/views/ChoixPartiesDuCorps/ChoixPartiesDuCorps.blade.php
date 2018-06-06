@@ -25,8 +25,8 @@
                 <input type="checkbox" id="fessier" name="fessier" value="fessier"/><label class="checkbox" for="fessier">Fessier</label>
           </fieldset>
 
-          <input type="submit" value="Sauvegarder les changements"/>
-          <input type="button" value="Annuler les changements"/>
+          <input type="button" value="Sauvegarder les changements"/>
+          <input type="reset" value="Annuler les changements"/>
         </form>
 
       <footer>
