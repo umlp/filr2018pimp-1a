@@ -13,7 +13,7 @@
 
     <!-- Styles -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-    {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
+    <!-- {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}} -->
 
     <style>
         body {
@@ -28,9 +28,11 @@
 
   <body id="app-layout">
     <header>
-      <h1>Matériel à disposition</h1>
+      <img id="logo" src="logofittyweb.png" alt="ASI" width="70" height="70"/>
+      <h1>FittyWeb</h1>
     </header>
-    <form action="GET">
+    <h2>Matériel à disposition</h2>
+    <form action="https://fittyweb.herokuapp.com/ProgrammeDeMusculationPersonnalise" method="post">
 
        <div class="form-check">
         <input type="checkbox" class="custom-control-input" name="materiel" id="1" value="Presse"/>
@@ -67,23 +69,16 @@
         <label class="form-check-label" for="7">Banc abdominaux</label>
       </div>
 
-
-
-        <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Poids disponible:</label>
-          <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-            <option value="5">5</option>
-            <option value="10">10</option>
-            <option value="15">15</option>
-            <option value="20">20</option>
-            <option value="25">25</option>
-            <option value="30">30</option>
-          </select></br>
+      <div>
+        <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Poids disponibles : </label>
+        <input placeholder="" id="inlineFormCustomSelectPref" name="poids" type="text" size="3"/>
+      </div>
 
         </br>
-        
+
         <a href="https://fittyweb.herokuapp.com/ChoixPartiesDuCorps"><input type="button" class="btn btn-primary" value="Retour"/></a>
         <input type="reset" class="btn btn-primary" value="Effacer"/>
-        <a href="https://fittyweb.herokuapp.com/ProgrammeDeMusculationPersonnalise"><input type="button" class="btn btn-primary" value="Valider"/></a>        
+        <a href="https://fittyweb.herokuapp.com/ProgrammeDeMusculationPersonnalise"><input type="button" class="btn btn-primary" value="Valider"/></a>
      </form>
 
   </body>
