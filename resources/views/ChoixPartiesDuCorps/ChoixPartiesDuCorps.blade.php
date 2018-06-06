@@ -3,7 +3,7 @@
   <head>
       <title>FittyWeb</title>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-      <link href="stylePage4.css" rel="stylesheet" type="text/css"/>
+      <link href="ChoixPartiesDuCorps.css" rel="stylesheet" type="text/css"/>
   </head>
     <body>
       <header id="top">
