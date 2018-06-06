@@ -17,7 +17,7 @@
         }
 
         header h1 {
-          padding-top: 10px;
+          padding-top: 30px;
           margin-left: 100px;
         }
     </style>
