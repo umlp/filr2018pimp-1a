@@ -68,7 +68,7 @@
           <br/>
           <input type="button" class="btn btn-primary" value="Retour"/>
           <input type="reset" class="btn btn-primary" value="Effacer"/>
-          <input type="button" class="btn btn-primary" value="Valider"/>
+          <a href="https://fittyweb.herokuapp.com/"><input type="button" class="btn btn-primary" value="Valider"/></a>
         </form>
         <h1><p class="text-danger">-30% sur les produits MyProtein avec le code FittyWeb</p></h1>
     </body>
