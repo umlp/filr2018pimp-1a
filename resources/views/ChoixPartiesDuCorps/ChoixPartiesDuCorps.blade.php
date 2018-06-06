@@ -29,6 +29,10 @@
             padding-top: 30px;
             margin-left: 100px;
           }
+
+          form, h2 {
+            margin-left: 10px;
+          }
       </style>
   </head>
     <body>
