@@ -84,12 +84,11 @@
           <label class="form-check-input" for="9">Presse Oblique</label>
         </div>
       </fieldset>
+      <br/>
+      <a href="https://fittyweb.herokuapp.com/"><input type="button" class="btn btn-primary" value="Retour"/></a>
+      <input type="reset" class="btn btn-primary" value="Effacer"/>
+      <input type="button" class="btn btn-primary" value="Valider"/>
     </form>
-    <br/>
-    <a href="https://fittyweb.herokuapp.com/"><input type="button" class="btn btn-primary" value="Retour"/></a>
-    <input type="reset" class="btn btn-primary" value="Effacer"/>
-    <input type="button" class="btn btn-primary" value="Valider"/>
-
     <h1><p class="text-danger">-30% sur les produits MyProtein avec le code FittyWeb</p></h1>
   </body>
 </html>

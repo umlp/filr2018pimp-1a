@@ -60,11 +60,11 @@
               <label class="form-check-input" for="4">Fessier</label>
             </div>
           </fieldset>
-        </form>
-        <br/>
-        <input type="button" class="btn btn-primary" value="Valider"/>
-        <input type="reset" class="btn btn-primary" value="Annuler les changements"/>
 
+          <br/>
+          <input type="button" class="btn btn-primary" value="Valider"/>
+          <input type="reset" class="btn btn-primary" value="Annuler les changements"/>
+        </form>
         <h1><p class="text-danger">-30% sur les produits MyProtein avec le code FittyWeb</p></h1>
     </body>
 </html>
