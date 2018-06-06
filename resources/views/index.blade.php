@@ -37,9 +37,10 @@
 
   <body id="app-layout">
     <header>
-      <img id="logo" src="logofittyweb.png" alt="ASI" width="70" height="70"/>
+      <img id="logo" src="logofittyweb.png" alt="ASI" width="90" height="90"/>
       <h1>FittyWeb</h1>
     </header>
+    </br>
     <h2>Matériel à disposition</h2>
     <form action="https://fittyweb.herokuapp.com/ProgrammeDeMusculationPersonnalise" method="post">
 

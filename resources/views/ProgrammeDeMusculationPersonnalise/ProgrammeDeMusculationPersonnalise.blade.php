@@ -16,7 +16,7 @@
           float: left;
         }
 
-        h1 {
+        header h1 {
           padding-top: 10px;
           margin-left: 100px;
         }
@@ -24,9 +24,10 @@
   </head>
   <body>
     <header>
-      <img id="logo" src="logofittyweb.png" alt="ASI" width="70" height="70"/>
+      <img id="logo" src="logofittyweb.png" alt="ASI" width="90" height="90"/>
       <h1>FittyWeb</h1>
     </header>
+    </br>
     <h2>Programme de musculation personnalisé</h2>
     <form action="ProgrammeDeMusculationPersonnalise.blade.php" method="post">
       <fieldset>
