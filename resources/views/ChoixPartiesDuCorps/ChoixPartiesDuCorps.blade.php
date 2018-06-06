@@ -39,31 +39,33 @@
         </br>
         <h2>Choix Partie du corps</h2>
         <form action="ChoixPartiesDuCorps.blade.php" method="post">
+          <fieldset>
+            <div class="form-check">
+              <input type="checkbox" class="custom-control-input" name="cardio" id="1" value="Cardio"/>
+              <label class="form-check-input" for="1">Cardio</label>
+            </div>
 
-          <div class="form-check">
-            <input type="checkbox" class="custom-control-input" name="cardio" id="1" value="Cardio"/>
-            <label class="form-check-input" for="1">Cardio</label>
-          </div>
+            <div class="form-check">
+              <input type="checkbox" class="custom-control-input" name="Bras" id="2" value="Bras"/>
+              <label class="form-check-input" for="2">Bras</label>
+            </div>
 
-          <div class="form-check">
-            <input type="checkbox" class="custom-control-input" name="Bras" id="2" value="Bras"/>
-            <label class="form-check-input" for="2">Bras</label>
-          </div>
+            <div class="form-check">
+              <input type="checkbox" class="custom-control-input" name="Jambes" id="3" value="Jambes"/>
+              <label class="form-check-input" for="3">Jambes</label>
+            </div>
 
-          <div class="form-check">
-            <input type="checkbox" class="custom-control-input" name="Jambes" id="3" value="Jambes"/>
-            <label class="form-check-input" for="3">Jambes</label>
-          </div>
-
-          <div class="form-check">
-            <input type="checkbox" class="custom-control-input" name="Fessier" id="4" value="Fessier"/>
-            <label class="form-check-input" for="4">Fessier</label>
-          </div>
-
-          <input type="button" value="Sauvegarder les changements"/>
-          <input type="reset" value="Annuler les changements"/>
+            <div class="form-check">
+              <input type="checkbox" class="custom-control-input" name="Fessier" id="4" value="Fessier"/>
+              <label class="form-check-input" for="4">Fessier</label>
+            </div>
+          </fieldset>
         </form>
 
+        <input type="button" value="Sauvegarder les changements"/>
+        <input type="reset" value="Annuler les changements"/>
+
+        <h1><p class="text-danger">-30% sur les produits MyProtein avec le code FittyWeb</p></h1>
       <footer>
       </footer>
     </body>

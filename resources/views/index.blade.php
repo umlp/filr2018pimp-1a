@@ -43,54 +43,54 @@
     </br>
     <h2>Matériel à disposition</h2>
     <form action="https://fittyweb.herokuapp.com/ProgrammeDeMusculationPersonnalise" method="post">
+      <fieldset>
+        <div class="form-check">
+          <input type="checkbox" class="custom-control-input" name="materiel" id="1" value="Presse"/>
+          <label class="form-check-input" for="1">Presse oblique</label>
+        </div>
 
-       <div class="form-check">
-        <input type="checkbox" class="custom-control-input" name="materiel" id="1" value="Presse"/>
-        <label class="form-check-input" for="1">Presse oblique</label>
-      </div>
+        <div class="form-check">
+          <input type="checkbox" class="custom-control-input" name="materiel" id="2" value="Altère"/>
+          <label class="form-check-input" for="2">Altère</label>
+        </div>
 
-      <div class="form-check">
-        <input type="checkbox" class="custom-control-input" name="materiel" id="2" value="Altère"/>
-        <label class="form-check-input" for="2">Altère</label>
-      </div>
+        <div class="form-check">
+          <input type="checkbox" class="custom-control-input" name="materiel" id="3" value="BancMuscu"/>
+          <label class="form-check-label" for="3">Banc de musculation</label>
+        </div>
 
-      <div class="form-check">
-        <input type="checkbox" class="custom-control-input" name="materiel" id="3" value="BancMuscu"/>
-        <label class="form-check-label" for="3">Banc de musculation</label>
-      </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="materiel" id="4" value="BarreTraction"/>
+          <label class="form-check-label" for="4">Barre de traction</label>
+        </div>
 
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" name="materiel" id="4" value="BarreTraction"/>
-        <label class="form-check-label" for="4">Barre de traction</label>
-      </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="materiel" id="5" value="TapisCourse"/>
+          <label class="form-check-label" for="5">Tapis de course</label>
+        </div>
 
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" name="materiel" id="5" value="TapisCourse"/>
-        <label class="form-check-label" for="5">Tapis de course</label>
-      </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="materiel" id="6" value="TapisSol"/>
+          <label class="form-check-label" for="6">Tapis de sol</label>
+        </div>
 
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" name="materiel" id="6" value="TapisSol"/>
-        <label class="form-check-label" for="6">Tapis de sol</label>
-      </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="materiel" id="7" value="BancAbdos"/>
+          <label class="form-check-label" for="7">Banc abdominaux</label>
+        </div>
 
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" name="materiel" id="7" value="BancAbdos"/>
-        <label class="form-check-label" for="7">Banc abdominaux</label>
-      </div>
-
-      <div>
-        <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Poids disponibles : </label>
-        <input placeholder="" id="inlineFormCustomSelectPref" name="poids" type="text" size="3"/>
-      </div>
-
-        </br>
-
-        <a href="https://fittyweb.herokuapp.com/ChoixPartiesDuCorps"><input type="button" class="btn btn-primary" value="Retour"/></a>
-        <input type="reset" class="btn btn-primary" value="Effacer"/>
-        <a href="https://fittyweb.herokuapp.com/ProgrammeDeMusculationPersonnalise"><input type="button" class="btn btn-primary" value="Valider"/></a>
+        <div>
+          <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Poids disponibles : </label>
+          <input placeholder="" id="inlineFormCustomSelectPref" name="poids" type="text" size="3"/>
+        </div>
+      </fieldset>
      </form>
 
+     <a href="https://fittyweb.herokuapp.com/ChoixPartiesDuCorps"><input type="button" class="btn btn-primary" value="Retour"/></a>
+     <input type="reset" class="btn btn-primary" value="Effacer"/>
+     <a href="https://fittyweb.herokuapp.com/ProgrammeDeMusculationPersonnalise"><input type="button" class="btn btn-primary" value="Valider"/></a>
+
+     <h1><p class="text-danger">-30% sur les produits MyProtein avec le code FittyWeb</p></h1>
   </body>
   <footer>
       <script type="text/javascript">
@@ -99,7 +99,6 @@
         var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null);
         if ((evt.keyCode == 13) && (node.type=="text"))  {return false;}
       }
-
       document.onkeypress = stopRKey;
     </script>
   </footer>
