@@ -24,7 +24,7 @@
           float: left;
         }
 
-        header h1 {
+        h1 {
           padding-top: 30px;
           margin-left: 100px;
         }
@@ -91,6 +91,5 @@
     <input type="button" class="btn btn-primary" value="Valider"/>
 
     <h1><p class="text-danger">-30% sur les produits MyProtein avec le code FittyWeb</p></h1>
-
   </body>
 </html>

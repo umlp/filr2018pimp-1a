@@ -66,7 +66,5 @@
         <input type="reset" class="btn btn-primary" value="Annuler les changements"/>
 
         <h1><p class="text-danger">-30% sur les produits MyProtein avec le code FittyWeb</p></h1>
-      <footer>
-      </footer>
     </body>
 </html>
