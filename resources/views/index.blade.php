@@ -23,12 +23,21 @@
         .fa-btn {
             margin-right: 6px;
         }
+
+        #logo {
+          float: left;
+        }
+
+        h1 {
+          padding-top: 10px;
+          margin-left: 100px;
+        }
     </style>
 </head>
 
   <body id="app-layout">
     <header>
-      <img class="float-left" id="logo" src="logofittyweb.png" alt="ASI" width="70" height="70"/>
+      <img id="logo" src="logofittyweb.png" alt="ASI" width="70" height="70"/>
       <h1>FittyWeb</h1>
     </header>
     <h2>Matériel à disposition</h2>

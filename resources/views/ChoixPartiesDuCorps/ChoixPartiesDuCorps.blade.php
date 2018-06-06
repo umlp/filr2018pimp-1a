@@ -11,10 +11,21 @@
       <!-- Styles -->
       <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
       <!--{{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}-->
+
+      <style>
+          #logo {
+            float: left;
+          }
+
+          h1 {
+            padding-top: 10px;
+            margin-left: 100px;
+          }
+      </style>
   </head>
     <body>
       <header>
-        <img class="float-left" id="logo" src="logofittyweb.png" alt="ASI" width="70" height="70"/>
+        <img id="logo" src="logofittyweb.png" alt="ASI" width="70" height="70"/>
         <h1>FittyWeb</h1>
       </header>
         <h2>Choix Partie du corps</h2>
